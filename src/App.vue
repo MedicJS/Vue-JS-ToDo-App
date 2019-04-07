@@ -85,8 +85,13 @@ export default {
     width: 82%;
     max-width: 500px;
   }
+  
+  h1 {
+    margin-top: 10px;
+  }
 
   input {
+    margin-top: 10px;
     border: 2px solid black;
     padding: 8px;
     font-size: 18px;
@@ -98,6 +103,7 @@ export default {
   }
   
   #add {
+    margin-top: 11px;
     display: inline;
     float: right;  
     z-index: 2;
@@ -106,11 +112,13 @@ export default {
   }
 
   .reset {
+    margin-top: 8px;
     box-shadow: 1px 1px 1px 1px black;
     z-index: 2;
   }
 
   .list-group {
+    margin-top: 30px;
     -webkit-box-shadow: 9px 10px 30px -4px rgba(15,15,15,1);
     -moz-box-shadow: 9px 10px 30px -4px rgba(15,15,15,1);
     box-shadow: 5px 8px 20px -10px rgba(15,15,15,1);
